@@ -166,3 +166,27 @@ Spring容器的refresh()【创建刷新】;
 	4）、事件驱动模型；
 		ApplicationListener；事件监听；
 		ApplicationEventMulticaster；事件派发：
+
+
+		泛型
+		replace-method\ looup-method
+
+		applyBeanPostProcessorBeforeInstantion
+
+		java8 lambda表达式
+
+		ThreadLocal
+
+		java8 function
+
+		doCreateBean
+
+		包扫描
+
+		========
+		dependOn
+		postContruct  init-method
+		FactoryBean
+
+        反射
+

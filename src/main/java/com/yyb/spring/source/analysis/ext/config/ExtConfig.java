@@ -58,7 +58,8 @@ import org.springframework.context.annotation.Configuration;
  * Executor executor = getTaskExecutor();
  * （2）、否则，同步的方式直接执行listener方法：invokeListener(listener, event);
  * 拿到Listener回调onApplicationEvent()方法
- * 【事件多播器（派发器）】:
+ *
+ * 【事件多播器（派发器）】的获取方式的流程:
  * 1)容器创建对象---》refresh()
  * 2)初始化ApplicationEventMulticaster---》initApplicationEventMulticaster();
  * 1、先去容器中找id=“applicationEventMulticaster”的组件
